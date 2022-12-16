@@ -349,6 +349,9 @@ form {
 	cursor: pointer;
 	justify-content: center;
 }
+.btn-main:hover {
+background: #5fdcb9;
+}
 
 .concept {
 	padding: 50px 0;
