@@ -1069,6 +1069,9 @@ form {
 #map-locations {
 	height: 700px;
 	background-color: #fff;
+}
+.slider-timeline,
+#map-locations {
 	margin-right: calc((100vw - 1310px) / 2* -1);
 }
 .list-locations {
@@ -1337,4 +1340,127 @@ border-color: #fff;
 }
 .container.slider-controls .slider__counter {
 	color: #fff;
+}
+.timeline {
+	padding-top: 40px;
+	padding-bottom: 64px;
+	background: #F7F5F5;
+}
+.timeline .title-section {
+	padding-bottom: 53px;
+	color: #313E48;
+}
+.countdown-block {
+	padding: 50px 55px;
+	padding-bottom: 70px;
+	color: #fff;
+	background: #313E48;
+}
+.countdown-block__title {
+	font-size: 30px;
+	line-height: 42px;
+	padding-bottom: 48px;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+.countdown-amount {
+	height: 64px;
+	font-size: 30px;
+	line-height: 42px;
+	margin-bottom: 10px;
+	letter-spacing: 0.03em;
+color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 6px;
+}
+.countdown-section {
+	margin: 0 11px;
+	width: initial !important;
+	flex: 1;
+	float: none;
+}
+.countdown-row {
+	display: flex;
+}
+.countdown-period {
+	font-size: 16px;
+	line-height: 22px;
+}
+.countdown-block .btn-main {
+	width: 100%;
+	font-size: 14px;
+	line-height: 17px;
+	padding: 0 10px;
+	margin-top: 58px;
+}
+.item-timeline {
+	width: 416px;
+	padding: 0 18px;
+	border-left: 1px solid #95A3AE;
+	color: #313E48;
+	min-height: 100%;
+}
+.item-timeline__head {
+	padding-bottom: 16px;
+	margin-bottom: 19px;
+	border-bottom: 1px solid #95A3AE;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.item-timeline__number {
+	font-size: 100px;
+	line-height: 120px;
+	font-weight: 300;
+}
+.item-timeline__year {
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 16px;
+	font-weight: 500;
+}
+.button-plus {
+	width: 50px;
+height: 50px;
+background: #52B69A;
+display: block;
+position: relative;
+border-radius: 50%;
+}
+.button-plus::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-image: url(../img/plus.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: all 0.3s;
+}
+.button-plus:hover::before {
+	transform: rotate(90deg);
+}
+.item-timeline__image {
+	height: 268px;
+	display: block;
+	width: 100%;
+}
+.item-timeline__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+}
+.item-timeline__month {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 72px;
+	font-weight: 300;
 }
