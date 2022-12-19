@@ -30,14 +30,14 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			$('a.item-plan').click(function() {
 				$('html').animate({ 
 					scrollTop: $(".plan-content").offset().top - 70
-				}, 0 
+				}, 1000 
 				);
 			}); 
 
 			$('.item-location').click(function() {
 				$('html').animate({ 
 					scrollTop: $("#map-locations").offset().top - 80
-				}, 0 
+				}, 1000 
 				);
 			}); 
 
