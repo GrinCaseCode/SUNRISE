@@ -937,6 +937,13 @@
 	.title-billbord {
 		font-size: 24px;
 		line-height: 35px;
+		margin-bottom: 20px;
+	}
+	.descr-billbord {
+		margin-bottom: 40px;
+	}
+	.circle-btn {
+		margin-bottom: 45px;
 	}
 	.title-billbord span::after, .title-billbord span::before {
 		width: 30px;
