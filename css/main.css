@@ -1932,3 +1932,6 @@ text-fill-color: transparent;
 	font-size: 14px;
 	padding: 0 41px;
 }
+.body_menu {
+	overflow: hidden;
+}

@@ -51,11 +51,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			$(".menu-dropdown").slideDown(200);
 			$(".header").removeClass("fixed");
 			$(".wrapper_page .header").addClass("header_menu");
+			$("body").addClass("body_menu");
 		} else {
 			$(".menu-dropdown").slideUp(200);
 			$(".header:not(.default)").addClass("fixed");
 			$(".header").addClass("default");
 			$(".wrapper_page .header").removeClass("header_menu");
+			$("body").removeClass("body_menu");
 		}
 		
 	});
@@ -65,6 +67,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(".sandwich").removeClass("active");
 		$(".header").addClass("fixed");
 		$(".header").addClass("default");
+		$("body").removeClass("body_menu");
 		$(".wrapper_page .header").removeClass("header_menu");
 	});
 
