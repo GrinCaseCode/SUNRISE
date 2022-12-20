@@ -928,12 +928,160 @@
 	.catalog .title-section {
 		padding-bottom: 0;
 	}
-	.tabs-sidebar 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+	.title-billbord {
+		font-size: 24px;
+		line-height: 35px;
+		margin-bottom: 20px;
+	}
+	.descr-billbord {
+		margin-bottom: 40px;
+	}
+	.circle-btn {
+		margin-bottom: 45px;
+	}
+	.title-billbord span::after, .title-billbord span::before {
+		width: 30px;
+	}
+	.billbord {
+		padding-top: 95px;
+	}
+	.item-contcept__title span {
+		font-size: 30px;
+		line-height: 52px;
+	}
+	.item-contcept__title {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.plan {
+		transform: scale(0.6);
+		margin-top: -320px;
+		margin-right: -130px;
+	}
+	.title-section {
+		font-size: 30px;
+		line-height: 40px;
+		text-align: center;
+	}
+	.section-image .title-section, .consultation .title-section {
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.checkbox {
+		margin-top: 22px;
+	}
+	.list-icons__icon {
+		margin-right: 25px;
+	}
+	.consultation .list-icons {
+		left: 15px;
+		max-width: 325px;
+	}
+	.form-page .btn-main {
+		padding: 0 10px;
+		width: 100%;
+	}
+	.slider-photos__item {
+		height: 235px;
+	}
+	.catalog .title-section {
+		font-size: 23px;
+		line-height: 37px;
+	}
+	.item-catalog__image {
+		height: 210px;
+	}
+	.list-locations {
+		font-size: 16px;
+	}
+	#map-locations {
+		height: 290px;
+	}
+	.slider-photos {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	#map-locations {
+		margin-left: -15px;
+		margin-right: -15px;
+		width: initial;
+	}
+	.presentation .title-section {
+		font-size: 22px;
+		line-height: 33px;
+	}
+	.presentation .item-info {
+		font-size: 13px;
+		line-height: 18px;
+	}
+	.form-main .btn-main {
+		margin-top: 15px;
+	}
+	.section-image .title-section {
+		font-size: 23px;
+		line-height: 33px;
+	}
+	.landscape {
+		padding-top: 30px;
+	}
+	.landscape .tabs-sidebar a {
+		font-size: 16px;
+	}
+	.image-landscape {
+		height: 290px;
+		margin: 0 -15px;
+	}
+	.panorama .title-section {
+		font-size: 30px;
+		line-height: 40px;
+		top: 20px;
+	}
+	.panorama .slider-photos__item {
+		height: 425px;
+	}
+	.timeline .title-section {
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.item-timeline__number {
+		font-size: 55px;
+		line-height: 75px;
+	}
+	.item-timeline__year {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.button-plus {
+		width: 40px;
+		height: 40px;
+	}
+	.button-plus::before {
+		background-size: 20px auto;
+	}
+	.item-timeline {
+		width: 320px;
+	}
+	.consultation-bottom .form-main {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.consultation-bottom .descr-section {
+		font-size: 16px;
+		line-height: 28px;
+		text-align: center;
+	}
+	.consultation-bottom .title-section {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.container.slider-controls {
+		top: -25px;
+	}
 }
 
 /* Custom, iPhone Retina */
