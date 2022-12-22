@@ -1807,7 +1807,7 @@ form {
 }
 .page-numbers.current {
 	font-weight: 500;
-		color: #52B69A;
+	color: #52B69A;
 }
 .page-numbers:hover {
 	color: #52B69A;
@@ -1816,25 +1816,25 @@ form {
 .next.page-numbers {
 	width: 30px;
 	height: 30px;
-border: 1px solid #95A3AE;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-position: absolute;
+	border: 1px solid #95A3AE;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
 	font-size: 12px;
-top: 0;
-margin: 0;
+	top: 0;
+	margin: 0;
 }
 .prev.page-numbers {
-left: 0;
+	left: 0;
 }
 .next.page-numbers {
-right: 0;
+	right: 0;
 }
 .prev.page-numbers:hover,
 .next.page-numbers:hover {
-border-color: #52B69A;
+	border-color: #52B69A;
 	color: #52B69A;
 }
 .tab-pane-title {
@@ -1848,7 +1848,7 @@ border-color: #52B69A;
 	background: #F7F5F5;
 }
 .article-content {
-color: #000;
+	color: #000;
 }
 .article-content img {
 	margin-left: 25px;
@@ -1861,7 +1861,7 @@ color: #000;
 	line-height: 48px;
 	margin-bottom: 21px;
 	font-weight: 300;
-		color: #313E48;
+	color: #313E48;
 }
 .article-content h3 {
 	font-size: 20px;
@@ -1907,14 +1907,14 @@ color: #000;
 	color: #fff;
 }
 .title-thanks {
-font-size: 64px;
-line-height: 90px;
-font-weight: 500;
+	font-size: 64px;
+	line-height: 90px;
+	font-weight: 500;
 	background: linear-gradient(178.26deg, #FFFFFF 19.19%, #52B69A 61.2%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
 }
 .descr-thanks {
 	font-size: 48px;
