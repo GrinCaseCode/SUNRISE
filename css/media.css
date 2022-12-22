@@ -1300,7 +1300,7 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 768px) and (max-width : 992px) {
 	.row_news > div:nth-child(2n+1) .item-news {
 		border-left: 1px solid #95A3AE;
 	}
